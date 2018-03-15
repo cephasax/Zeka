@@ -5,8 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-import br.ufrn.imd.file.FileManager;
-import br.ufrn.imd.file.FileOutputWriter;
+import br.ufrn.imd.zeca.file.FileManager;
+import br.ufrn.imd.zeca.file.FileOutputWriter;
 import weka.classifiers.Classifier;
 import weka.core.Instances;
 
