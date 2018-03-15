@@ -10,7 +10,7 @@ import br.ufrn.imd.zeca.accuracyExtractor.domain.ResultTrainingSet;
 import br.ufrn.imd.zeca.file.FileManager;
 import br.ufrn.imd.zeca.file.FileOutputWriterCatchAccuracy;
 
-public class Main {
+public class CatchAccuracies {
 
 	public static ArrayList<File> files;
 	public static FileManager fileManager = new FileManager("C:\\Users\\cephas\\Google Drive\\Pessoal\\Mestrado\\Dissertacao\\dados\\experimento_perfil\\bases\\modificadas\\final_exp\\step3 - classific\\xuxu\\");
