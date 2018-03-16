@@ -1,8 +1,23 @@
 # SOBRE O ZEKA
 
-O ZEKA é uma ferramenta de código aberto baseado na API do WEKA para a classificação de dados. A API do WEKA inclui uma coleção de algoritmos de aprendizado de máquinas (classificação, regressão , agrupamento , detecção de valores fora da curva) e ferramentas para avaliação. Relacionado ao projeto WEKA, o ZEKA também está escrito em Java.
+Escrito em Java, o ZEKA é uma ferramenta de código aberto baseado na API do WEKA. A API inclui uma coleção de algoritmos de aprendizado de máquinas (classificação, regressão , agrupamento , detecção de valores fora da curva) e ferramentas para avaliação.
 
-Atualmente o ZEKA possue dois módulos: o primeiro módulo permite o pesquisador escolher um modelo de Aprendizado de Máquina utilizando um ou vários datasets no formato (arff) para classificação. Já o segundo módulo realiza a captura da acurácia de um arquivo no formato .txt dos resultados dos classificadores. Dessa forma, cria-se um novo arquivo de forma automática na raiz do projeto com os resultados de forma organizada dos dados capturados do arquivo de texto.
+Atualmente o ZEKA possui os módulos(funcionalidades): 
+
+O primeiro módulo(1) permite o pesquisador escolher um modelo de Aprendizado de Máquina e um ou vários datasets no formato .arff para classificação. 
+
+O segundo módulo(2) realiza a captura da acurácia (porcentagem de acerto) no arquivo .txt resultante dos classificadores presentes no weka. Como resultado, cria-se um  arquivo .txt na raiz do projeto com as todos os valores de acurácia presentes em cada arquivo.
+
+Motivações:
+
+Módulo 1: 
+          Testar modelos de ML de forma rápida e sem lidar com codificação. 
+          Facilitar o trabalho de aplicação do modelo em mais de um dataset.
+
+Módulo 2
+         Facilitar o trabalho de procurar manualmente as acurácias em centenas ou até milhares de arquivos .txt resultantes de classificadores.
+         Agilizar o processo de analise de resultados de classificadores.
+
 
 # Começando com ZEKA
 ...
@@ -21,4 +36,4 @@ https://www.eclipse.org/downloads/download.php?file=/oomph/epp/oxygen/R2/eclipse
 ...
 
 
- > :warning: É necessário que o dataset a ser apresentada ao modelo de classificação tenha EXATAMENTE o mesmo formato do dataset que gerou o modelo.
+ > :AVISO: É necessário que o dataset a ser apresentado ao modelo de classificação(no módulo 1) tenha EXATAMENTE o mesmo formato do dataset que gerou o modelo.
