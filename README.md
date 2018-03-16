@@ -8,7 +8,7 @@ O ZEKA é uma ferramenta de código aberto baseado na API do WEKA para a classif
 
 # Começando com ZEKA
 
-#Requisitos para executar ZEKA
+# Requisitos para executar ZEKA
 
 IDE de Desenvolvimento JAVA, é indicado o ECLIPSE  
 
