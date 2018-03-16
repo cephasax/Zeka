@@ -10,12 +10,10 @@ O ZEKA é uma ferramenta de código aberto baseado na API do WEKA para a classif
 
 # Requisitos para executar ZEKA
 
-IDE de Desenvolvimento JAVA, é indicado o ECLIPSE  
 
 1) [Eclipse Oxygen 2018](
 https://www.eclipse.org/downloads/download.php?file=/oomph/epp/oxygen/R2/eclipse-inst-win64.exe&mirror_id=576)
 
-Um arquivo (JAR) do WEKA
 
 2) [Weka 3.8](http://prdownloads.sourceforge.net/weka/weka-3-8-2jre-x64.exe) 
 
