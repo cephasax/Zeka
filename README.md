@@ -1,13 +1,21 @@
-# Zeka
+O #ZEKA é uma ferramenta de código aberto baseado na API do WEKA para a classificação de dados. A API do WEKA inclui uma coleção de algoritmos de aprendizado de máquinas (classificação, regressão , agrupamento , detecção de valores fora da curva) e ferramentas para avaliação. Relacionado ao projeto WEKA, o ZEKA também está escrito em Java.
 
-Java project to use weka api (and maybe others) to work for my Master degree project
+ Atualmente o ZEKA possue dois módulos: o primeiro módulo permite o pesquisador escolher um modelo de Aprendizado de Máquina utilizando um ou vários datasets no formato (arff) para classificação. Já o segundo módulo realiza a captura da acurácia de um arquivo no formato .txt dos resultados dos classificadores. Dessa forma, cria-se um novo arquivo de forma automática na raiz do projeto.
 
-Features
+ OBS.: É necessário que o dataset a ser apresentada ao modelo de classificação tenha EXATAMENTE o mesmo formato do dataset que gerou o modelo.
 
-- ClassifieDataFromModel
-  (Chinese English) It is a main class that allow choose one Machine Learning model and one(or many) arff databases for classification. It is simple but i didn't see 
-  any project like this in internet.
+# Começando com ZEKA
 
-  Módulo que permite escolher um modelo de Aprendizado de Máquina e uma(ou muitas) bases de dados (arff) para classificação.
-  
-  ps.: é necessário que a base a ser apresentada ao modelo tenha EXATAMENTE o mesmo formato da base que gerou o modelo.
+#Requisitos para executar ZEKA
+
+IDE de Desenvolvimento JAVA, é indicado o ECLIPSE  
+
+1) [Eclipse Oxygen 2018](
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/oxygen/R2/eclipse-inst-win64.exe&mirror_id=576)
+
+Um arquivo (JAR) do WEKA
+
+2) [Weka 3.8](http://prdownloads.sourceforge.net/weka/weka-3-8-2jre-x64.exe) 
+
+
+# Criando um experimento empírico de avaliação
